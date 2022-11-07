@@ -74,7 +74,7 @@ p,
     margin: 0;
 }
 
-.formulario {
+.contenedor {
     display: flex;
     margin: auto;
     width: 60%;
@@ -100,4 +100,46 @@ p,
 .footer-nav {
     padding-left: 30px;
     padding-top: 10px;
+}
+
+
+/****  ticket ****/
+
+.textoResumen{
+    color: rgb(99, 126, 180);
+    background-color: lightblue;
+
+}
+
+.tarjetas{
+ padding: 5px !important;
+}
+
+#row1{
+    padding-left: 3rem !important;
+}
+
+.parrafo1{
+    width: auto;
+    height: 50px;
+    font-size: 15px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   color: #084298;
+    background-color: #cfe2ff;
+    border-color: #b6d4fe;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    margin-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+
+
+ .inputIncorrecto {
+       border: 2px solid red !important;
+}
+
+.inputCorrecto {
+    outline: none;
+    border: 2px solid green !important;
 }
